@@ -1,6 +1,6 @@
 import { Plugin } from "vite";
 
-declare module "vite-plugin-remove-console" {
+declare module "vite-plugin-remove-console-method-calls" {
   interface Options {
     /** Don't remove console.log these modules */
     external?: Array<string>;
